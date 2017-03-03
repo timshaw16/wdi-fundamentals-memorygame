@@ -13,11 +13,11 @@ var cardFour = "king";
 
 var gameBoard = document.getElementById('game-board');
 
-var createCards = function() {
-	for (var i=0; i<4; i++){	
-var cardsElement = document.createElements('div');
-		cardsElement.className = 'card';
-		gameBoard.appendChild(gameBoard);
+var createCards = function() {	
+for (var i = 0; i < 4; i++){
+	var cardDiv = document.createElement('div');
+		cardDiv.className = 'card';
+		gameBoard.appendChild(cardDiv);
 	}
-
 }
+	createCards();
